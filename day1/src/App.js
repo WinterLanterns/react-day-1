@@ -1,11 +1,11 @@
-import logo from "./logo.svg";
 import "./App.css";
 import Utils from "./Utils";
+import MovieCard from "./components/MovieCard";
 
 function App() {
   return (
     <div className="App">
-      <Utils></Utils>
+      <MovieCard></MovieCard>
     </div>
   );
 }

@@ -1,0 +1,26 @@
+.movie-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  border: 1px solid gray;
+  width: 400px;
+}
+
+.movie-card__infobox {
+  padding: 0px 20px 10px;
+}
+.movie-card__title {
+  font-weight: 300;
+}
+
+.movie-card__title,
+.movie-card__button {
+  font-size: 30px;
+}
+.movie-card__button {
+  width: 130px;
+  border: 1px solid red;
+  border-radius: 10px;
+  color: red;
+  background-color: pink;
+}
